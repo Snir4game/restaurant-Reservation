@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
 import Homepage from "../home/homepage";
+import "./intro.css";
 const Intro = () => {
 
     const [showIntro, setShowIntro] = useState(true);
