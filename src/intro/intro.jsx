@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
-
-const intro = () => {
+import Homepage from "../home/homepage";
+const Intro = () => {
 
     const [showIntro, setShowIntro] = useState(true);
     const [fadeOut, setFadeOut] = useState(false);
@@ -18,3 +18,22 @@ const intro = () => {
             clearTimeout(hideTimer);
         };
     },[]);
+
+
+    if(!showIntro)
+        return(
+           <Homepage />
+        )
+
+    return (
+        <div className="Intro-Body">
+            <div className="Intro-Text-name">
+                <h1 className="restName"></h1>
+                <p className="year"></p>
+            </div>
+        </div>
+    )
+
+};
+
+export default Intro;

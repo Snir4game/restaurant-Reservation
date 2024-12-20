@@ -1,0 +1,43 @@
+.Intro-Body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdab9;
+
+}
+.Intro-Text-name{
+text-align: center;
+color: #f8ad9d;
+}
+.restName{
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.year{
+    font-size: 1.25rem;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.animate-fade-In {
+    animation: fadeIn 1s ease-in forwards;
+
+}
+.animate-fade-out {
+    animation: fadeout 1s ease-in forwards;
+}
