@@ -14,8 +14,12 @@ color: #f8ad9d;
     font-size: 3.75rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    animation: fadeIn 2s ease-in forwards;
+    font-family: fantasy;
+    text-shadow: black 3px 2px 1px;
 }
 .year{
+    animation: fadeIn 2.5s ease-in forwards;
     font-size: 1.25rem;
 }
 @keyframes fadeIn {
@@ -35,9 +39,9 @@ color: #f8ad9d;
     }
 }
 .animate-fade-In {
-    animation: fadeIn 5s ease-in forwards;
+    animation: fadeIn 7s ease-in forwards;
 
 }
 .animate-fade-out {
-    animation: fadeout 4s ease-in forwards;
+    animation: fadeout 6s ease-in forwards;
 }

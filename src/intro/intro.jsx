@@ -9,11 +9,11 @@ const Intro = () => {
     useEffect(() => {
         const fadeTimer = setTimeout(() => {
             setFadeOut(true);
-        },2000);
+        },4000);
 
         const hideTimer = setTimeout(() => {
             setShowIntro(false);
-        },3000);
+        },4000);
         return () => {
             clearTimeout(fadeTimer);
             clearTimeout(hideTimer);
@@ -29,8 +29,8 @@ const Intro = () => {
     return (
         <div className="Intro-Body">
             <div className="Intro-Text-name">
-                <h1 className="restName"></h1>
-                <p className="year"></p>
+                <h1 className="restName">Manelo</h1>
+                <p className="year">Establish 1993</p>
             </div>
         </div>
     )
