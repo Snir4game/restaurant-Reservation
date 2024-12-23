@@ -4,11 +4,10 @@
     justify-content: center;
     align-items: center;
     background-color: #ffdab9;
-
+    animation: fadeIn 1.5s ease-in forwards;
 }
 .Intro-Text-name{
 text-align: center;
-color: #f8ad9d;
 }
 .restName{
     font-size: 3.75rem;
@@ -16,7 +15,8 @@ color: #f8ad9d;
     margin-bottom: 0.5rem;
     animation: fadeIn 2s ease-in forwards;
     font-family: fantasy;
-    text-shadow: black 3px 2px 1px;
+    color: #f8ad9d;
+    text-shadow: black 2px 1px 1px;
 }
 .year{
     animation: fadeIn 2.5s ease-in forwards;
