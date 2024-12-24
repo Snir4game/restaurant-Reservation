@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffdab9;
+    background-color: #12664F;
     animation: fadeIn 1.5s ease-in forwards;
 }
 .Intro-Text-name{
@@ -15,7 +15,7 @@ text-align: center;
     margin-bottom: 0.5rem;
     animation: fadeIn 2s ease-in forwards;
     font-family: fantasy;
-    color: #f8ad9d;
+    color: #ffffff;
     text-shadow: black 2px 1px 1px;
 }
 .year{

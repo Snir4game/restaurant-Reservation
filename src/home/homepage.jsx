@@ -1,14 +1,12 @@
-import React from 'react';
 import './homepage.css';
-
+import React from 'react';
+import Navbar from '../pages/navigater.jsx';
 function homepage() {
   return (
     <div className="Body">
       <div className="title">
-
-      </div>
-      <div className="Navbar">
-
+        <h1>Manelo</h1>
+        <Navbar />
       </div>
       <div className="about-us">
 
