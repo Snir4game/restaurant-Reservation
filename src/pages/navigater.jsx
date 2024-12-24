@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './navbar.css';
 
 const NavBar = () => {
     const [activeItem, setActiveItem] = useState('home');
